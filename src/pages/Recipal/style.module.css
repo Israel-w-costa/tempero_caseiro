@@ -1,0 +1,23 @@
+.container_recipal {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 2rem;
+}
+
+.container_recipal h1 {
+    font-size: 3.2rem;
+}
+
+.container_recipal img{
+    max-width: 82rem;
+    align-self: center;
+}
+
+.container_recipal h3,h5, p{
+    align-self: center;
+    margin:4rem 24rem;
+    font-size: 2rem;
+    text-align:justify;
+    line-height: 1.2;
+}

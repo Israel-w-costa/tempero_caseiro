@@ -1,3 +1,6 @@
+import '../../styles/global.css'
+import '../../styles/theme.css'
+
 import { Children, type ReactNode } from "react";
 import Footer from "../../components/Footer";
 import Heading from "../../components/Heading";
