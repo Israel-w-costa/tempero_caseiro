@@ -1,18 +1,12 @@
-import './styles/global.css'
-import './styles/theme.css'
+// import Inicio from "./pages/Inicio"
 
-import Heading from './components/Heading'
-import Navagate from './components/Navagate'
-import CardRecipal from './components/CardRecipal'
-import Footer from './components/footer'
+import Recipal from "./pages/Recipal"
 
 function App() {
   return(
   <>
-  <Heading/>
-  <Navagate/>
-  <CardRecipal/>
-  <Footer/>
+  {/* <Inicio/> */}
+  <Recipal/>
   </>
 )}
 
