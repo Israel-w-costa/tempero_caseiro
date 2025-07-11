@@ -1,0 +1,24 @@
+.container_heading {
+    display: flex;
+    margin: 4rem 4rem 1rem;
+    gap: 2.5rem;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cinzaEscuro);
+    cursor: pointer;
+}
+
+.container_heading img {
+    max-width: 8rem;
+}
+
+.container_heading h1 {
+    font-size: 2rem;
+    margin-top:2rem ;
+}
+
+.container_span {
+    color: var(--cinzaEscuro);
+    padding: 4rem;
+    font-size: 1.5rem;
+}
