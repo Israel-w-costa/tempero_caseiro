@@ -29,3 +29,11 @@ margin: 1rem 6rem;
     font-size: 2rem;
 }
 
+.container_imagem_recitas p {
+   display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; 
+  line-clamp: 2;          
+  overflow: hidden;
+}
+

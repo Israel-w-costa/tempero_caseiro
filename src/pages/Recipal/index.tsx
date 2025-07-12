@@ -1,6 +1,7 @@
 import MainLayout from '../../templates/MainLayout'
 import styles from './style.module.css'
 import recipalCards from '../../components/RecipalInfo/RecipalCards'
+import type  {TypeRecipal} from '../../components/RecipalInfo/TypeRecipal'
 
 export default function Recipal() {
 
@@ -9,7 +10,7 @@ export default function Recipal() {
   return (
     <MainLayout>
       <button onClick={() => console.log( "oi")}>clicar</button>
-      {recipalCards.map((recipalCard) => (
+      {recipalCards.map((recipalCard:TypeRecipal) => (
         <div className={styles.container_recipal} key={recipalCard.id}>
           {recipalCard.id == 1?
             <>
@@ -28,8 +29,7 @@ export default function Recipal() {
             </>
 
             :
-            <h2>erro ao carregar a receita</h2>
-
+            null
           }
         </div>
       ))}
