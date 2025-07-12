@@ -1,5 +1,5 @@
 import styles from'./styles.module.css'
-import cards from '../RecipalInfo/recipalInfoCard'
+import recipalCards from '../RecipalInfo/RecipalCards'
 
 
 export default function CardRecipal  () {
@@ -8,13 +8,13 @@ export default function CardRecipal  () {
   return (
     <>
      <h1 className={styles.recitas_texto}>Receitas</h1>
-   {cards.map( (card) => (
+   {recipalCards.map( (recipalCard) => (
     
-   <div className={styles.container_recitas} key={card.id}>
+   <div className={styles.container_recitas} key={recipalCard.id}>
     <a href='#' className={styles.container_imagem_recitas}>
-      <img src={card.imagemRecita}/>
-      <h3>{card.titulo}</h3>
-      <p>{card.pararagrafo}</p>
+      <img src={recipalCard.imagem}/>
+      <h3>{recipalCard.tituloPrincipal}</h3>
+      <p>{recipalCard.introducao}</p>
     </a>
     </div>
    ))}
