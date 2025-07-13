@@ -2,17 +2,18 @@ import MainLayout from '../../templates/MainLayout'
 import styles from './style.module.css'
 import recipalCards from '../../components/RecipalInfo/RecipalCards'
 import type  {TypeRecipal} from '../../components/RecipalInfo/TypeRecipal'
+import { useParams } from 'react-router-dom'
 
 export default function Recipal() {
-
+const {id} = useParams()
 
 
   return (
     <MainLayout>
-      <button onClick={() => console.log( "oi")}>clicar</button>
+      <button onClick={() => console.log(  id)}>clicar</button>
       {recipalCards.map((recipalCard:TypeRecipal) => (
         <div className={styles.container_recipal} key={recipalCard.id}>
-          {recipalCard.id == 1?
+          {recipalCard.id.toString() == id?
             <>
               <h1>{recipalCard.subtitulo}</h1>
               <img src={recipalCard.imagem} />
