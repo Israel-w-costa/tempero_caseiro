@@ -27,13 +27,16 @@ margin: 1rem 6rem;
 .container_imagem_recitas h3 {
     padding: 1rem 0rem;
     font-size: 2rem;
+    list-style:none;
 }
 
+
+
 .container_imagem_recitas p {
-   display: -webkit-box;
+  display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2; 
-  line-clamp: 2;          
+  -webkit-line-clamp: 3; 
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 

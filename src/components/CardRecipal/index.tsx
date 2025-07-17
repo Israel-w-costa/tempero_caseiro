@@ -8,28 +8,24 @@ export default function CardRecipal  () {
  
 
 
-// function hendleRecipalCard(id:number) {
-//     return id
-//     }  
+
 
   return (
-    // <Link to={`/receita/${recipalCard.id}`}>Ver receita</Link> // ✅ Isso gera "/receita/1"
     <>
      <h1 className={styles.recitas_texto}>Receitas</h1>
    {recipalCards.map( (recipalCard:TypeRecipal) => (
     
    <div className={styles.container_recitas}
-    // onClick={()=>hendleRecipalCard(recipalCard.id)  
      key={recipalCard.id}>
-    {/* <a href='#' className={styles.container_imagem_recitas}> */}
     <Link to={`../../pages/Recipal/${recipalCard.id}` }>
       <div className={styles.container_imagem_recitas}>
-      <img src={recipalCard.imagem} alt={recipalCard.subtitulo}/>
+      <img src={recipalCard.imagem} alt={recipalCard.tituloPrincipal}/>
       <h3>{recipalCard.tituloPrincipal}</h3>
+      <div>
       <p>{recipalCard.introducao}</p>
       </div>
+      </div>
     </Link>
-    {/* </a> */}
     </div>
    ))}
     </>
