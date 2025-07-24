@@ -6,10 +6,6 @@ import { Link } from 'react-router-dom'
 
 export default function CardRecipal  () {
  
-
-
-
-
   return (
     <>
      <h1 className={styles.recitas_texto}>Receitas</h1>

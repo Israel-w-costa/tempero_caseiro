@@ -34,8 +34,8 @@ margin: 1rem 6rem;
 
 .container_imagem_recitas p {
   display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3; 
+  -webkit-box-orient:block-axis;
+  -webkit-line-clamp: 2; 
   overflow: hidden;
   text-overflow: ellipsis;
 }

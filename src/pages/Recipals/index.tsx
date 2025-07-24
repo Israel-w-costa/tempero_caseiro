@@ -25,9 +25,7 @@ const {id} = useParams()
               <p>{recipalCard.preparo_etapa2}</p>
               <p>{recipalCard.preparo_etapa3}</p>
               <p>{recipalCard.preparo_etapa4}</p>
-
             </>
-
             :
             null
           }

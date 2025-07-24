@@ -1,0 +1,19 @@
+.container_page_not_found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container_page_not_found button {
+    padding: 1rem;
+    border-color: var(--amareloPastel);
+    border-radius: 2rem;
+    background-color: var(--amareloPastel);
+    cursor: pointer;
+}
+
+.container_page_not_found button:hover {
+    background-color: var(--cinzaEscuro);
+    color:var(--creme) ;
+}
