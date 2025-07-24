@@ -13,3 +13,8 @@
     align-content: flex-end;
 }
 
+.container_navagate_link {
+    text-decoration: none;
+    color :var( --cinzaEscuro)
+}
+

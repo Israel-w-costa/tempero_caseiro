@@ -21,6 +21,16 @@ margin: 1rem 6rem;
   transform: translateY(-4px);  
   transition: all 0.3s ease;
 }
+.container_link {
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-box-orient:block-axis;
+  -webkit-line-clamp: 4; 
+  line-clamp:4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .container_imagem_recitas img {
     max-width: 32rem;
 }
@@ -30,13 +40,9 @@ margin: 1rem 6rem;
     list-style:none;
 }
 
-
-
 .container_imagem_recitas p {
-  display: -webkit-box;
-  -webkit-box-orient:block-axis;
-  -webkit-line-clamp: 2; 
-  overflow: hidden;
-  text-overflow: ellipsis;
+margin: 2rem;
+
 }
+
 

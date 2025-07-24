@@ -13,7 +13,7 @@ export default function CardRecipal  () {
     
    <div className={styles.container_recitas}
      key={recipalCard.id}>
-    <Link to={`../../pages/Recipal/${recipalCard.id}` }>
+    <Link to={`../../pages/Recipal/${recipalCard.id}`} className={styles.container_link}>
       <div className={styles.container_imagem_recitas}>
       <img src={recipalCard.imagem} alt={recipalCard.tituloPrincipal}/>
       <h3>{recipalCard.tituloPrincipal}</h3>

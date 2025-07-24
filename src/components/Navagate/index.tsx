@@ -5,7 +5,7 @@ export default function Navagate () {
    return (
     <nav>
     <ul className={styles.container_navagate}>
-      <Link to={"/"}><li>Inicio</li> </Link>
+      <Link to={"/"} className={styles.container_navagate_link}><li>Inicio</li> </Link>
       <li><a href="#"/>Forúm</li>
       <li><a href="#"/>Sobre</li>
     </ul>
